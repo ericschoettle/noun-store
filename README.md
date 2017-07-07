@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## To do
 
-Things you may want to cover:
+Models
+* Item many-to-many with tag, one-to-many with review
+* User - one to many with review
+  * is admin?
+* tag
+* review
 
-* Ruby version
+Views
+* Main - show nouns
+  * If admin, add nouns
+* Detail - show comments, tags, have place to comment
+  * If admin - delete comments, delete tags
+* Tags - sort by tag.
+* Users - sign up, or if Admin, allow you to delete.
 
-* System dependencies
+Controllers
+* For each model?
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Routes
+* Item/tag, Item/reviews, User/Item
