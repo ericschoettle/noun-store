@@ -8,23 +8,17 @@
 
 Item.destroy_all
 
-nationTag = Tag.create!(name: "Nation", )
-10.times do |index|
+25.times do |index|
   Item.create!(name: Faker::Address.country,
               price: Faker::Number.between(35, 1000000000))
 end
 
-10.times do |index|
-  Item.create!(name: Faker::Dessert.variety,
-              price: Faker::Number.between(1, 1000000))
-end
-
-10.times do |index|
+25.times do |index|
   Item.create!(name: Faker::Beer.name,
               price: Faker::Number.between(1, 100))
 end
 
-10.times do |index|
+5.times do |index|
   Item.create!(name: Faker::Color.color_name,
               price: Faker::Number.between(100, 1000000))
 end

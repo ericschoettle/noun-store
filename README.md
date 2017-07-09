@@ -2,12 +2,6 @@
 
 ## To do
 
-Models
-* Item many-to-many with tag, one-to-many with review
-* User - one to many with review
-  * is admin?
-* tag
-* review
 
 Views
 * Main - show nouns
@@ -22,3 +16,35 @@ Controllers
 
 Routes
 * Item/tag, Item/reviews, User/Item
+
+
+To do:
+
+CRUD:
+
+Allow users to add nouns. - update and delete
+Allow users to add tags. - update and delete
+  Show tags on detail view of nouns, show list of all tags.
+Allow users to comment. - update and delete.
+  Show tags comments on nouns detail.
+
+ADMIN/authentication:
+
+Get authentication running
+Set up admin account
+Restrict item addition, comment and tags to admin.
+
+STYLING:
+
+Get bootstrap running
+Throw some styling at it!
+
+TESTING:
+
+Unit tests
+Integration tests
+Coverage
+
+FAKER:
+
+Make tags and comments with faker 
