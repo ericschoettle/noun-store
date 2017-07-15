@@ -26,22 +26,10 @@ ActiveRecord::Schema.define(version: 20170709184841) do
     t.datetime "picture_updated_at"
   end
 
-  create_table "items_tags", id: false, force: :cascade do |t|
-    t.integer "item_id"
-    t.integer "tag_id"
-  end
-
   create_table "reviews", force: :cascade do |t|
     t.integer "rating"
     t.text "body"
     t.integer "user_id"
-    t.integer "item_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "tags", force: :cascade do |t|
-    t.string "name"
     t.integer "item_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
