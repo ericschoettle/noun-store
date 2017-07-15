@@ -9,18 +9,30 @@
 Item.destroy_all
 
 25.times do |index|
-  Item.create!(name: Faker::Address.country,
+  item = Item.create!(name: Faker::Address.country,
               price: Faker::Number.between(35, 1000000000))
+  2.times do |j|
+    item.reviews.create(body: Faker::Lorem.paragraph,
+                        user_id: 1)
+  end
 end
 
 25.times do |index|
-  Item.create!(name: Faker::Beer.name,
+  item = Item.create!(name: Faker::Beer.name,
               price: Faker::Number.between(1, 100))
+  2.times do |j|
+    item.reviews.create(body: Faker::Lorem.paragraph,
+                        user_id: 1)
+  end
 end
 
 5.times do |index|
-  Item.create!(name: Faker::Color.color_name,
+  item = Item.create!(name: Faker::Color.color_name,
               price: Faker::Number.between(100, 1000000))
+  2.times do |j|
+    item.reviews.create(body: Faker::Lorem.paragraph,
+                        user_id: 1)
+  end
 end
 
-p "Created #{Item.count} Items"
+p "Created #{Item.count} Items and #{Review.count} Reviews"
