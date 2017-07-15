@@ -46,6 +46,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'launchy'
   gem 'pry'
+  gem 'rb-readline'
   gem 'shoulda-matchers'
   gem 'factory_girl'
   gem 'simplecov', require: false

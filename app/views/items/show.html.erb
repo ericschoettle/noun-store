@@ -1,0 +1,11 @@
+<h1>Product Details</h1>
+
+<h3><b><%= @item.name %></b>, <i>$<%= @item.price.to_i %></i></h3>
+<% binding.pry %>
+<% if @item.reviews %>
+  <% @item.reviews.each do |review| %>
+    <h4> <%= review.body %> </h4>
+  <% end %>
+<% end %>
+
+<%#= render @item.reviews %>
