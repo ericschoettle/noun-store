@@ -1,11 +1,17 @@
 <h1>Product Details</h1>
 
 <h3><b><%= @item.name %></b>, <i>$<%= @item.price.to_i %></i></h3>
-<% binding.pry %>
+
 <% if @item.reviews %>
   <% @item.reviews.each do |review| %>
     <h4> <%= review.body %> </h4>
   <% end %>
 <% end %>
 
+<% if current_user %>
+  <%= form_for @review, item_reviews_path(@item) do |f| %>
+  <%= f.hidden_field :user_id, value: current_user.id %>
+    <%= f.text :body %>
+  <% end %>
+<% end %>
 <%#= render @item.reviews %>
