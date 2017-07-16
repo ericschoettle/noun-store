@@ -7,11 +7,16 @@
     <h4> <%= review.body %> </h4>
   <% end %>
 <% end %>
-
+<br>
 <% if current_user %>
-  <%= form_for @review, item_reviews_path(@item) do |f| %>
-  <%= f.hidden_field :user_id, value: current_user.id %>
-    <%= f.text :body %>
+  <hr>
+  <br>
+  <h3>Leave a review:</h3>
+  <%= form_for @review, url: item_reviews_path(@item) do |f| %>
+    <%= f.hidden_field :item_id, value: @item.id %>
+    <%= f.hidden_field :user_id, value: current_user.id %>
+    <%= f.text_area :body %><br>
+    <%= f.submit %>
   <% end %>
 <% end %>
 <%#= render @item.reviews %>
