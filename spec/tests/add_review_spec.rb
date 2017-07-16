@@ -15,5 +15,4 @@ describe "add a new review" do
     visit item_path(@item)
     expect(page).to have_content 'glowing'
   end
-
 end

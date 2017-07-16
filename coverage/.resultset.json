@@ -1,9 +1,22 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/noun-store/spec/controllers/home_controller_controller_spec.rb": [
+      "/Users/Guest/Desktop/noun-store/spec/tests/add_review_spec.rb": [
         1,
         null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
         1,
         null,
         null
@@ -658,10 +671,68 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/noun-store/app/controllers/home_controller.rb": [
+      "/Users/Guest/Desktop/noun-store/spec/tests/add_user_spec.rb": [
+        1,
+        null,
         1,
         1,
-        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/noun-store/spec/tests/item_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/noun-store/app/models/item.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/noun-store/app/models/review.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/noun-store/app/controllers/items_controller.rb": [
+        1,
+        1,
+        1,
+        1,
         null,
         null
       ],
@@ -677,197 +748,14 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/noun-store/spec/controllers/items_controller_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/noun-store/app/controllers/items_controller.rb": [
+      "/Users/Guest/Desktop/noun-store/app/controllers/home_controller.rb": [
         1,
         1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/noun-store/spec/controllers/reviews_controller_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/noun-store/app/controllers/reviews_controller.rb": [
-        1,
-        1,
-        null,
-        1,
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
-        null,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/noun-store/spec/controllers/users_controller_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/noun-store/app/controllers/users_controller.rb": [
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/noun-store/spec/helpers/home_controller_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/noun-store/spec/helpers/items_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/noun-store/spec/helpers/reviews_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/noun-store/spec/helpers/tags_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/noun-store/spec/helpers/users_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/noun-store/spec/models/item_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/noun-store/app/models/item.rb": [
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/noun-store/spec/models/review_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/noun-store/app/models/review.rb": [
-        1,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/noun-store/spec/models/user_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/noun-store/spec/tests/add_review_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
+        4,
         null,
         null
       ]
     },
-    "timestamp": 1500180441
+    "timestamp": 1500182021
   }
 }
