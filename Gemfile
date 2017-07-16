@@ -48,7 +48,7 @@ group :development, :test do
   gem 'pry'
   gem 'rb-readline'
   gem 'shoulda-matchers'
-  gem 'factory_girl'
+  gem "factory_girl_rails", "~> 4.0"
   gem 'simplecov', require: false
   gem 'capybara'
 end
